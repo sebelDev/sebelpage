@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'pixelmix';
+    src: url('pixelmix.ttf') format('ttf');
+}
+
 body {
     background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: 'pixelmix';
 }
 
 h1 {
