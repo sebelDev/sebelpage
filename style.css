@@ -48,3 +48,14 @@ a {
     vertical-align: top;
     width: 100px;
 }
+
+/* sidebar for links */
+.linksidebar {
+
+    float: left;
+    width: 3%;
+    vertical-align: top;
+    text-align: center;
+    align-content: center;
+
+}
