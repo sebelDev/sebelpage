@@ -1,44 +1,56 @@
 <!-- The home page!!! -->
-
 <!DOCTYPE html>
+
 <html>
 
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>THE SEBELPAGE</title>
 
-    <div class="header">
-
-        <h1>
-            <!-- Image of my profile picture -->
-            <img src="assets/images/SEBEL.png" width="100"><br>
-
-            SEBEL PAGE
-        </h1>
-
-    </div>
-    
-    <br>
-    <br>
-
-    <span class="linksidebar">
-
-        <a href="https://www.youtube.com/watch?v=EPcho0ObHMQ">
-            <img src="assets/images/links/Bin.png" width="75%">
-            Recycle Bin
-        </a>
-
-        <a href="https://undertale.com/">
-            <img src="assets/images/links/Folder.png" width="75%">
-            Game Ideas
-        </a>
+        <link rel="stylesheet" href="style.css">
         
-    </span>
+        <script src="js/index.js" type="module"></script>
+
+        <!-- Bai Jamjuree from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
 
     <body>
 
+        <div style="overflow: hidden; position: fixed; margin: 0 0; z-index: -2;">
+            <div class="scrolling-image"></div>
+        </div>
+
+        <div class="header">
+            <h1>
+                <!-- Honeydrop studios logo-->
+                <img src="assets/images/Logo.svg" width="100"><br> SEBEL PAGE
+            </h1>
+        </div>
+
         <div class="center">
-            <span>
-            <img src="assets/images/window_buttons.png" class="buttondecor"><br>
-            </span>
+
+            <h1>homepage</h1>
+
+            <p>
+                hi, i'm <b>SEBEL</b> and this is my <b>PAGE</b>.<br>
+                i developed the game ken's quest (plus a few others)
+
+                <br><br>
+                <i>Embark on an epic adventure in Ken’s Quest, a thrilling 2D platformer filled with action, challenges, and hidden treasures! 
+                <br>
+                🎮 Play now at 👉 <a href="https://sebeldev.itch.io/kens-quest">https://sebeldev.itch.io/kens-quest</a></i>
+                <br><br>
+
+                <img src="./assets/images/kenrun.gif" width="140"><br><br>
+
+                one thing i <i>love</i> about websites and javascript is that they. can run. <b>anywhere.</b><br>
+                so if you make and host them yourself, no one is stopping you from viewing and using them at anytime!<br>
+                why don't you give it a try?<br><br>
+                <b>if you are looking for another website quite similar this one, check <a href="https://polarcoords.github.io/awebsitethatissoblanditsantimsg/">this</a> out</b>
+            </p>
+
             <h2><b>Computer Games</b></h2>
             
             <!-- Ken's Quest 2 MVP -->
@@ -51,10 +63,11 @@
             
             <!-- Ken's Gravity Quest -->
             <a href="https://sebeldev.github.io/KenGravityEmbed/">Ken's Gravity Quest</a><br>
+            <br>
             
         </div>
 
-    <iframe src="https://www.lexaloffle.com/bbs/widget.php?pid=15133" allowfullscreen width="621" height="513" style="border:none; overflow:hidden"></iframe>
+        <canvas id="puter" width="960" height="540"></canvas>
         
     </body>
     
