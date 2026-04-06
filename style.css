@@ -8,10 +8,20 @@
 }
 
 .scrolling-image {
-    background: url("./assets/images/background.png") repeat-x;
+    margin: 0 0;
+    background-origin: 0 60;
+    offset: 30;
+    background: url("./assets/images/background.png") repeat;
     height: 3840px;
     width: 7680px;
     animation: slide 6s linear infinite;
+    z-index: -2;
+}
+
+.scrolling-image-container {
+    overflow: hidden; 
+    position: fixed; 
+    margin: 0 0; 
     z-index: -2;
 }
 
@@ -53,7 +63,7 @@ a {
 /* Centred objects!!! */
 .center {
     margin: auto;
-    width: 50vw;
+    width: 65vw;
     border: 6px solid black;
     border-radius: 20px;
     background-color: white;
@@ -72,35 +82,15 @@ a {
     margin: 0%;
 }
 
-/* button decor to make divs look like windows */
-.buttondecor {
-    float: right;
-    vertical-align: top;
-    width: 100px;
-}
-
-/* sidebar for links */
-.linksidebar {
-
-    float: left;
-    width: 3%;
-    vertical-align: top;
-    text-align: center;
-    align-content: center;
-
-}
-
 .fileselect {
 
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     padding: 5px;
 
 }
 
 .fileselect div {
     padding: 10px;
-    font-size: 30px;
     text-align: center;
-
 }
