@@ -34,7 +34,7 @@ body {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: large;
+    font-size: larger;
 }
 
 button {
@@ -93,4 +93,33 @@ a {
 .fileselect div {
     padding: 10px;
     text-align: center;
+}
+
+.featureContainer {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+}
+
+.subscriptionContainer {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.featureBox {
+    background-color: white;
+    min-height: 240px;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    text-align: left;
+    border: solid;
+    border-color: rgb(200, 200, 200);
+    border-radius: 5px;
 }
